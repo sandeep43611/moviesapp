@@ -1,0 +1,44 @@
+/* Add styles for the menu bar and search input */
+.menu-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-bar li {
+    margin: 0;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar .search {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.menu-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
